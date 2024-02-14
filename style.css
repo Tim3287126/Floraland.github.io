@@ -380,7 +380,7 @@ html[data-w-dynpage] [data-w-cloak] {
     bottom: auto;
     left: auto;
     right: auto;
-    overflow: visible;
+    overflow: hidden;
     transform: none;
 }
 
@@ -388,7 +388,7 @@ html[data-w-dynpage] [data-w-cloak] {
     white-space: nowrap;
     cursor: pointer;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
-    visibility: visible !important;
+    visibility: hidden !important;
     z-index: 2147483647 !important;
     color: #aaadb0 !important;
     opacity: 1 !important;
@@ -407,12 +407,12 @@ html[data-w-dynpage] [data-w-cloak] {
     bottom: 12px !important;
     left: auto !important;
     right: 12px !important;
-    overflow: visible !important;
+    overflow: hidden !important;
     transform: none !important;
 }
 
 .w-webflow-badge>img {
-    visibility: visible !important;
+    visibility: hidden !important;
     opacity: 1 !important;
     vertical-align: middle !important;
     display: inline-block !important;
@@ -5171,10 +5171,13 @@ figcaption {
     color: #f1f1ef;
 }
 
-.jumbo-heading.text-dark-slate-grey {
+.jumbo-heading.text-dark-slate-grey { /* 標題的css */
     color: #1d3d34;
+    font-size: 50px;
 }
-
+.indent-second-line { /* <!-- 我自己打的 --> */
+    text-indent: 50px;
+}
 .dropdown-icon {
     color: #1d3d34;
     margin-right: 0;
