@@ -234,28 +234,28 @@ th {
 }
 
 .w-icon-slider-right:before {
-    content: "";
+    content: "î˜€";
 }
 
 .w-icon-slider-left:before {
-    content: "";
+    content: "î˜";
 }
 
 .w-icon-nav-menu:before {
-    content: "";
+    content: "î˜‚";
 }
 
 .w-icon-arrow-down:before,
 .w-icon-dropdown-toggle:before {
-    content: "";
+    content: "î˜ƒ";
 }
 
 .w-icon-file-upload-remove:before {
-    content: "";
+    content: "î¤€";
 }
 
 .w-icon-file-upload-icon:before {
-    content: "";
+    content: "î¤ƒ";
 }
 
 * {
@@ -380,7 +380,7 @@ html[data-w-dynpage] [data-w-cloak] {
     bottom: auto;
     left: auto;
     right: auto;
-    overflow: hidden;
+    overflow: visible;
     transform: none;
 }
 
@@ -388,7 +388,7 @@ html[data-w-dynpage] [data-w-cloak] {
     white-space: nowrap;
     cursor: pointer;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
-    visibility: hidden !important;
+    visibility: visible !important;
     z-index: 2147483647 !important;
     color: #aaadb0 !important;
     opacity: 1 !important;
@@ -407,12 +407,12 @@ html[data-w-dynpage] [data-w-cloak] {
     bottom: 12px !important;
     left: auto !important;
     right: 12px !important;
-    overflow: hidden !important;
+    overflow: visible !important;
     transform: none !important;
 }
 
 .w-webflow-badge>img {
-    visibility: hidden !important;
+    visibility: visible !important;
     opacity: 1 !important;
     vertical-align: middle !important;
     display: inline-block !important;
@@ -4652,12 +4652,11 @@ figcaption {
 }
 
 .more-templates {
-    visibility: hidden;
     z-index: 1000;
     grid-column-gap: 6px;
     grid-row-gap: 6px;
     color: #000;
-    background-color: #9a2323;
+    background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 30px;
     align-items: center;
@@ -5174,7 +5173,6 @@ figcaption {
 
 .jumbo-heading.text-dark-slate-grey {
     color: #1d3d34;
-    font-size: 50px;
 }
 
 .dropdown-icon {
