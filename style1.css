@@ -2304,11 +2304,11 @@ blockquote {
     background-size: cover;
 }
 
-.hero-section.about-page {
+.hero-section.about-page { /* 全套行程 */
     position: relative;
     padding-top: 120px;
     padding-bottom: 80px;
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af18ad4a9e56_hero-photo.jpg");
+    background-image: url("images/皇家花園.jpg");
 }
 
 .hero-section.blog-hero {
@@ -2457,7 +2457,7 @@ blockquote {
 }
 
 .tile-image.hire {
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af62584a9e53_camera-front.jpg");
+    background-image: url("images/民宿照片1.jpg"); 
 }
 
 .tile-text {
@@ -2666,13 +2666,13 @@ blockquote {
 }
 
 .hero-overlay {
-    position: absolute;
+    position: absolute; /* 最大的第一張的圖片這裡改 */
     left: 0px;
     top: 0px;
     right: 0px;
     bottom: 0px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cta-section {
@@ -2707,7 +2707,7 @@ blockquote {
 .project-image {
     height: 250px;
     border-radius: 3px;
-    background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+    background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");/* 好像是background image，怎麼刪都刪不掉的那張圖片的連結 */
     background-position: 50% 50%;
     background-size: cover;
     -webkit-transition: -webkit-transform 700ms ease;
@@ -2905,7 +2905,7 @@ blockquote {
     bottom: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); /* 所有照片濾鏡 */
+    background-color: rgba(0, 0, 0, 0.1); /* 所有照片濾鏡都在這一起改 */
 }
 
 .blog-image-wrapper {
