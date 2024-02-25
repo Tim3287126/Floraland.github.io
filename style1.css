@@ -2273,11 +2273,11 @@ p {
     line-height: 25px;
 }
 
-a {
+a { /* 全套行程一日多日遊的文字和連接這裡改 */
     -webkit-transition: color 400ms ease;
     transition: color 400ms ease;
     color: #25ac6a;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
