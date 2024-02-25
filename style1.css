@@ -2489,48 +2489,61 @@ blockquote {
     float: left;
 }
 
-.social-block {
+/* 右下的四個ICON */
+.social-block { 
     width: 50%;
     height: 145px;
     float: left;
-    background-color: #55acee;
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af86684a9e52_twitter.svg");
+    background-color: #4DC764;
+    background-image: url("images/LINE.png");/* 左上Line的icon 原本全都是svg檔*/
     background-position: 50% 50%;
-    background-size: 50px;
+    background-size: 60px; /* 網頁放大後icon的大小 */
     background-repeat: no-repeat;
     -webkit-transition: background-color 400ms ease;
     transition: background-color 400ms ease;
+    
 }
 
 .social-block:hover {
-    background-color: #3d90cf;
+    background-color: #02a302;
 }
 
-.social-block.facebook {
+.social-block.facebook { /* 右上FB的icon*/
     background-color: #3765a3;
     background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74afad9e4a9e50_facebook.svg");
-    background-size: 50px;
+    background-size: 50px; /* 網頁放大後icon的大小 */
 }
 
 .social-block.facebook:hover {
     background-color: #23528f;
 }
 
-.social-block.pinterest {
-    background-color: #c92228;
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74afa1f24a9e5c_pinterest.svg");
-    background-size: 50px;
+
+
+
+
+
+.social-block.pinterest { /* 左下IG的icon*/
+    background-color: #FF7D43;
+    background-image: url("images/IG icon.png"); 
+    background-size: 60px; /* 網頁放大後icon的大小 */
 }
 
 .social-block.pinterest:hover {
-    background-color: #aa1217;
+    background-color: #C53796;
 }
 
-.social-block.dribbble {
+
+
+
+
+
+
+.social-block.dribbble { /* 右下的icon*/
     display: inline-block;
     background-color: #e04c86;
     background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af160e4a9e54_dribbble.svg");
-    background-size: 50px;
+    background-size: 50px; /* 網頁放大後icon的大小 */   
 }
 
 .social-block.dribbble:hover {
@@ -3028,16 +3041,16 @@ blockquote {
         line-height: 29px;
     }
     .social-block {
-        background-size: 40px;
+        background-size: 48px; /* 網頁縮小後 首頁四個標誌的大小 左上 (LINE) */
     }
-    .social-block.facebook {
-        background-size: 40px;
+    .social-block.facebook { 
+        background-size: 40px; /* 首頁四個標誌的大小 右上 (FB) */
     }
     .social-block.pinterest {
-        background-size: 40px;
+        background-size: 47px; /* 首頁四個標誌的大小 左下 (IG) */
     }
     .social-block.dribbble {
-        background-size: 40px;
+        background-size: 40px; /* 首頁四個標誌的大小 右下 */
     }
     .logo-footer {
         display: block;
