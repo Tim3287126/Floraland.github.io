@@ -467,9 +467,9 @@ h1 {
     margin-top: 20px
 }
 
-h2 {
-    font-size: 32px;
-    line-height: 36px;
+h2 {   /* 所有h2的文字這裡編輯 */
+    font-size: 35px;
+    line-height: 38px;
     margin-top: 20px
 }
 
@@ -2258,7 +2258,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Lato, sans-serif;
-    color: #fff;
+    color: #fff; /* 所有頁面的標題顏色 */
     font-size: 34px;
     line-height: 45px;
     font-weight: 300;
@@ -2277,7 +2277,7 @@ a { /* 全套行程一日多日遊的文字和連接這裡改 */
     -webkit-transition: color 400ms ease;
     transition: color 400ms ease;
     color: #25ac6a;
-    text-decoration: none;
+    text-decoration: none; /* 連結底線  */
 }
 
 a:hover {
@@ -2299,17 +2299,35 @@ blockquote {
     position: relative;
     padding-top: 130px;
     padding-bottom: 145px;
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af5bc14a9e58_design-desk.jpg");
+    background-image: url(""); /* 預設圖片 全套行程最大張的 本來是音符 */
     background-position: 50% 50%;
     background-size: cover;
 }
 
-.hero-section.about-page { /* 全套行程 */
+.hero-section.關於我們-page { /*關於我們 */
     position: relative;
     padding-top: 120px;
     padding-bottom: 80px;
     background-image: url("images/皇家花園.jpg");
 }
+
+
+.hero-section.全套行程-page { /* 全套行程 */
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-image: url("images/古城.png");
+}
+
+
+.hero-section.包車導遊-page { /* 包車導遊*/
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-image: url("images/包車導遊.jpg");
+}
+
+
 
 .hero-section.blog-hero {
     padding-top: 120px;
@@ -2322,6 +2340,7 @@ blockquote {
     padding-top: 120px;
     padding-bottom: 80px;
     background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af5bc14a9e58_design-desk.jpg");
+    /* 音符的圖片 */
 }
 
 .hero-section.blog-post-hero {
@@ -2329,7 +2348,7 @@ blockquote {
 }
 
 .hero-section.home-page-hero {
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74af7c074a9e4f_work-late");
+    background-image: url("images/Chiangmai.jpg"); /* 首頁最大張的圖片 */
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -2434,21 +2453,22 @@ blockquote {
     height: 100%;
 }
 
-.tile-image {
+
+.tile-image { /* 首頁格子圖片濾淨這裡編輯 */
     position: absolute;
     left: 0px;
     top: 0px;
     right: 0px;
     bottom: 0px;
     height: 100%;
-    background-image: url("https://assets.website-files.com/5e4b197bdc74af0daa4a9e2d/5e4b197bdc74afe6a14a9e5e_about-image.jpg");
-    background-position: 50% 50%;
+    background-image: url(""); /* 首頁格子裡藍色一個人背對看山圖片 */
+    background-position: 50% 50%;              
     background-size: cover;
     -webkit-transition: -webkit-transform 1000ms ease;
     transition: -webkit-transform 1000ms ease;
     transition: transform 1000ms ease;
     transition: transform 1000ms ease, -webkit-transform 1000ms ease;
-}
+}   
 
 .tile-image:hover {
     -webkit-transform: scale(1.03);
